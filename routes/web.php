@@ -49,7 +49,7 @@ Route::post('contactform', function(){
             'notes' => 'required',
         ]);
 
-        Mail::to('contact@motongen.com')
+        Mail::to('info@motongen.com')
     ->send(new Contact(request()->toArray()));
 
     if(Mail::failures()){
