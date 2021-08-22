@@ -29,7 +29,7 @@ class FindInstallerMail extends Mailable
      */
     public function build()
     {
-        return $this->from('contact@motongen.com')
+        return $this->from('info@motongen.com')
             ->markdown('email.installer', [
                 'firstname' => $this->user['firstname'],
                 'lastname' => $this->user['lastname'],

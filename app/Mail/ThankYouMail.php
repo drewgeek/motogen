@@ -29,9 +29,9 @@ class ThankYouMail extends Mailable
      */
     public function build()
     {
-        return $this->from('contact@motongen.com')
+        return $this->from('info@motongen.com')
                 ->subject('MOTONGEN: Your Mail Acknowledgement')
-                ->replyTo('contact@motongen.com')
+                ->replyTo('info@motongen.com')
                 ->markdown('email.thankyou', [
                     'firstname' => ucfirst(strtolower($this->firstname)),
                 ]);

@@ -29,7 +29,7 @@ class AcademyEnquiryMail extends Mailable
      */
     public function build()
     {
-        return $this->from('contact@motongen.com')
+        return $this->from('info@motongen.com')
         ->markdown('email.academy', [
            'firstname' => $this->properties['firstname'],
             'lastname' => $this->properties['lastname'],

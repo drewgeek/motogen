@@ -75,7 +75,7 @@ Route::post('academy', function(){
         'notes' => 'required',
     ]);
 
-    Mail::to('contact@motongen.com')
+    Mail::to('info@motongen.com')
     ->send(new AcademyEnquiryMail(request()->toArray()));
 
     if(Mail::failures()){
@@ -105,7 +105,7 @@ Route::post('installer', function(){
         'notes' => 'required',
     ]);
 
-    Mail::to('contact@motongen.com')
+    Mail::to('info@motongen.com')
     ->send(new FindInstallerMail(request()->toArray()));
 
     if(Mail::failures()){

@@ -14,9 +14,9 @@
                     <p>
                         <i class="fas fa-phone text-danger"></i> 0817 093 9116
                     </p>
-                    <p> <a href="mailto:contact@motongen.com">
+                    <p> <a href="mailto:info@motongen.com">
                         <i class="fas fa-envelope text-danger"></i>
-                        contact@motongen.com 
+                        info@motongen.com 
                         </a>
                     </p>
                 </div>
