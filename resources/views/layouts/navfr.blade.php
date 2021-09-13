@@ -1,5 +1,23 @@
 
         <nav class="navbar navbar-expand-lg">
+
+          @php 
+
+          $currentRouteName = Route::currentRouteName();
+          
+          $englishRouteName = $frenchRouteName =  null;
+          if(Str::endsWith($currentRouteName, 'fr')){
+              //french 
+              $englishRouteName = Str::before($currentRouteName, 'fr');
+              $frenchRouteName = $currentRouteName;
+          }else {
+              //english
+          
+              $frenchRouteName = $currentRouteName."fr";
+              $englishRouteName = $currentRouteName;
+          }
+          @endphp
+
             <div class="container-fluid">
               <a class="navbar-brand" href="{{route('homefr')}}">
                 @if(Route::currentRouteName() == 'contact' || Route::currentRouteName() == 'contactfr')
@@ -46,6 +64,11 @@
                         </span>
                     </a>
                   </li>
+
+                  <div>
+                    <a href="{{route($englishRouteName)}}" title="switch to english"><img src="assets/england-flag.webp" alt="english" title="switch to english" width="20"> </a>| <a href="{{route($frenchRouteName)}}" title="passer au français"><img src="assets/france.webp" alt="french" width="20" title="passer au français"></a>
+                </div>
+
                 </ul>
 
                 
