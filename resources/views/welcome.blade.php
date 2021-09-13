@@ -18,20 +18,31 @@
             @include('layouts.nav')
         </div>
 
-        <div class="container" >
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="container">
+            <div class="row" style="margin-top: 3em">
+                <div class="col-md-6 col-sm-12 col-xs-12" >
                     <h1 id="title">DO YOU WANT A<br class="d-none d-xl-block"> REMANUFACTURED ENGINE?</h1>
                     <p class="text-white">
                         MotoNgen is an engine, gearbox and axles remanufacturing company. We procure engines for our customers across the nation and West Africa coast.
                     </p>
                     <a href="{{route('contact')}}" class="btn btn-light py-2 px-5 ml-5 bold-btn">GET A QUOTE</a>
                 </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <audio controls>
+                        <source src="{{asset('assets/audio.mp3')}}" type="audio/mp3">
+                        <source src="{{asset('assets/audio.mpeg')}}" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                </div>
+                
             </div>
                 
-            <div class="row" id="secondrow">
-                <div class="col-md-6 col-sm-12"></div>
+            <div class="row" id="secondrow" style="margin-top: 5em">
+                <div class="col-md-6 col-sm-12">
+                </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
+                    
                     <span>
                     <h1 class="text-white">
                         ABOUT  <br class="d-none d-xl-block">  MOTONGEN

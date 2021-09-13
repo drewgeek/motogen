@@ -124,7 +124,7 @@ header .container .col-md-6 button {
 header .container .col-md-6:last-child{
     position: relative;
     color: white;
-    margin-top: 17em;
+    margin-top: 1em;
 }
 
 header .container .col-md-6:last-child span{
