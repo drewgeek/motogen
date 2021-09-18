@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <img src="assets/splash.webp" alt="">
+                        <img src="assets/engine.jpg" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 text-left">
                         <p>
