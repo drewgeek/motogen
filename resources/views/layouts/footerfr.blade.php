@@ -9,7 +9,7 @@
                         Nous contacter
                     </h4>
                     <p>
-                        7 Kehinde Famsheke Street <br> Ilasa Road, Lekki Expressway
+                        7 Kehinde Famsheke Street <br> Off Ilasan New Road, <br> Off Lekki-Epe Expressway, Lagos.
                     </p>
                     <p>
                         <i class="fas fa-phone text-danger"></i> 0817 093 9116

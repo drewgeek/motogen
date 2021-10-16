@@ -33,12 +33,14 @@ header span {
 
 
 header {
-    background: #232528;
-    background: url("../assets/bg.webp");
+    /* background: #232528; */
+    background: #3A3B3C;
+    /* background: url("../assets/bg.webp"); */
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
-    height: 1061px;
+    /* height: 1061px; */
+    height: 760px;
     background-size: cover;
     position: relative;
     margin-bottom: -5vw;
@@ -153,8 +155,8 @@ header .container .col-md-6:last-child p{
 
 .section-1 {
     background-color: #E4F1FE;
-    height: 30rem;
-    overflow-y: hidden;
+    overflow:hidden;
+    height:1%;
 }
 
 
@@ -164,22 +166,26 @@ header .container .col-md-6:last-child p{
     position: absolute;
     margin-top: -23vmin;
     padding-bottom: 4vmin;
-    height: 70%;
+    height:auto;
     width: 40%;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px;
 }
 
 .section-1 .col-md-6:last-child {
     /* padding-top: 5vmin; */
-    padding-right: 35vmin;
+    padding-right: 5vmin;
     padding-left: 0;
     font-family: var(--Inter);
     left: 0;
-    font-size: 1em;
+    font-size: 14px;
+    
+    /* text-justify: inter-word; */
+    overflow: auto;
 }
 
+
 .section-1 .col-md-6:last-child p{
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 2em;
 }
 .section-1 button{
@@ -191,7 +197,7 @@ header .container .col-md-6:last-child p{
     background: #BF1E2E;
     color: white;
     z-index: 10;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%); */
 }
 
 .section-2 h1{
@@ -301,7 +307,7 @@ footer p a:hover,:active {
 
 
     .section-1 {
-        height: 50em;
+        height: 65em;
     }
 
     .section-1 .col-md-6:first-child {
@@ -377,9 +383,6 @@ footer p a:hover,:active {
     }
 
 
-    .section-1 .col-md-6:last-child p{
-        padding-bottom: 2em;
-    }
 }
 
 

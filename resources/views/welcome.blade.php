@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoNgen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/index.css')}}">
+    <link rel="stylesheet" href="{{asset('css/index1.css')}}">
     <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="shortcut icon" href="{{asset('assets/Header_Logo.webp')}}" type="image/x-icon">
@@ -48,7 +48,7 @@
                         ABOUT  <br class="d-none d-xl-block">  MOTONGEN
                     </h1>
                     <p class="text-white">
-                        MotoNgen is an engine, gearbox and axles remanufacturing company,  today we are building the nation's largest collection of remanufactured of petrol, transmissions, differentials, rear axle assemblies,  performance engines, and electric motors. 
+                        At MotoNgen today, we are building the nation's largest collection of remanufactured of petrol, transmissions, differentials, rear axle assemblies,  performance engines, and electric motors. 
                     </p>
                     </span>
                 </div>
@@ -63,11 +63,44 @@
                     <div class="col-md-6 col-sm-12">
                         <img src="assets/engine.jpg" alt="">
                     </div>
-                    <div class="col-md-6 col-sm-12 text-left">
+                    <div class="col-md-6 col-sm-12 text-left" style="overflow: auto">
                         <p>
-                            We procure engines, gearboxes, axles and differentials for our customers across the nation and West Africa coast.
                         </p>
+                        <h3>MOTONGEN QUALITY CONTROL</h3>
+                            <ul style="list-style:circle; text-align: justify;">
+                                <li>
+                                    Visual inspection, sorting and grading of core during tear down.
+                                </li>
+                                <li>
+                                    100% magnaflux inspection of all blocks for cracks.
+                                </li>
+                                <li>
+                                    100% air gauging of all cylinder bores for diameter and roundness.
+                                </li>
+                                <li>
+                                    All crankshaft main bearing bores and all cylinder bores measured for diameter and distortion.
+                                </li>
+                                <li>
+                                    Coolant passageways – All engine assemblies quantified for water jacket, head gasket, and
+casting leakage using pressure decay testing.
+                                </li>
+                                <li>
+                                    Oil passageways – All engine assemblies quantified for oil gallery, gasket, and casting leakage
+using pressure decay testing.
+                                </li>
+                                <li>
+                                    Sims Testing – All engines are cold motored and checked and measured for proper torque to
+turn, cylinder compression, oil flow, oil pressure as well as audibly monitored for any unusual
+noises. All sealed units are tested for oil and coolant leaks.
+                                </li>
+                                <li>
+                                    One block per engine family is laid out daily and checked for all critical and high impact
+characteristics as defined in our control plans. These measurements include surface finishes,
+surface flatness and cylindricity
+                                </li>
+                            </ul>
                         <a href="{{route('about')}}" class="btn btn-danger px-5 py-2 bold-btn">ABOUT MOTONGEN</a>
+
                     </div>
                 </div>
             </div>

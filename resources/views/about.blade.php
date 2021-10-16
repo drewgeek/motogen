@@ -51,7 +51,8 @@
                     <div class="col-md-6 text-left">
                         <h3>OUR MISSION</h3>
                         <p>
-                            To help vehicle owners, fleet owners save money and layoff time of there vehicles, to reduce mechanical waste and save them the financial burden of returning bad engines and buying engines that will not last.
+                          Continuous improvement in engine delivery, quality, productivity to increase longevity ensure sustainability and the reduction of mechanical waste in cars and all type of motion equipment.
+                            {{-- To help vehicle owners, fleet owners save money and layoff time of there vehicles, to reduce mechanical waste and save them the financial burden of returning bad engines and buying engines that will not last. --}}
 
                         </p>
                         <h3>OUR CULTURE</h3>

@@ -9,7 +9,7 @@
                         CONTACT US
                     </h4>
                     <p>
-                        7 Kehinde Famsheke Street <br> Ilasa Road, Lekki Expressway
+                        7 Kehinde Famsheke Street <br> Off Ilasan New Road, <br> Off Lekki-Epe Expressway, Lagos.
                     </p>
                     <p>
                         <i class="fas fa-phone text-danger"></i> 0817 093 9116
@@ -58,9 +58,9 @@
         </div>
             <hr style="margin: 0 4em 1em 4em;">
             <div class="row">
-              <div class="col-10 offset-1">
+              <div class="col-10">
                 <div class="row">
-                <div class="col-md-2 text-center">
+                <div class="col-md-2">
                     <img src="{{asset('assets/logo.webp')}}" alt="logo">
                 </div>
                 <div class="col-md-8">
