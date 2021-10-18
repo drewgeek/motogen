@@ -92,6 +92,8 @@
                 </div>
             </div>
         </section>
+        @include('layouts.brands')
+
     </main>
     
     @include('layouts.footer')

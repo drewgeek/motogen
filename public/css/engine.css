@@ -234,9 +234,10 @@ header .container .col-md-6:last-child p{
 .section-4 {
     background-color: #E4F1FE;
     padding: 10vmin 0;
-    height: 50em;
+    /* height: 50em; */
+    height: 1%;
     overflow-y:hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
     z-index: 1;
 }
 

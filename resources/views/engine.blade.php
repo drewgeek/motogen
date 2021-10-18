@@ -229,6 +229,7 @@
             </div>
 
         </section>
+        @include('layouts.brands')
 
     </main>
     
