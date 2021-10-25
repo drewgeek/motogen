@@ -1,7 +1,7 @@
 <div class="row" style="background: #3A3B3C;">
 
     <h4 class="py-5 mt-1 text-light" style="text-transform:uppercase; text-align:center">
-      car brands we service
+      car makes we sell
     </h4>
 
     <div class="row pb-5">
