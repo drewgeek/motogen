@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MotoNgen</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/engine1.css')}}">
+    <link rel="stylesheet" href="{{asset('css/engine.css')}}">
     <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="shortcut icon" href="assets/Header_Logo.webp" type="image/x-icon">
@@ -31,19 +31,43 @@
                 <div class="row">
                     <div class="col-md-6 text-left">
                         <p class="text-danger text-uppercase">
-                            What are remanufactured and rebuilt engines?
+                            {{-- What are remanufactured and rebuilt engines? --}}
+                            What is the difference between a used, rebuilt and remanufactured engine?
                         </p>
+                        <div>
+                            If the engine in your vehicle  is no longer performing to your expectations or has knocked, there’s no need to trade for a new or newer used vehicle. After all, you didn’t intend to replace your vehicle before the engine got tired, why would you now?
+                            <br>
+                        </div>
+                            <div>
+                            Replacing your engine with a MOTONGEN stock replacement engine will cost considerably less than replacing the vehicle. 
+                            <br>
+                        </div>
+                            <div>
+                        We offer 1 year guarantee and service remote assist. We also have the option of selling with recommended engine oil and oil filter because the wrong lubricant can cause damage to the engine.
+                            </div>
+
                     </div>
                     <div class="col-md-6 text-left">
+                        <h5> USED ENGINES </h5>
                         <p>
-                            If the engine in your vehicle  is no longer performing to your expectations or has knocked, there’s no need to trade for a new or newer used vehicle. After all, you didn’t intend to replace your vehicle before the engine got tired, why would you now?
-                            </p>
-                            <p>
-                            Replacing your engine with a MOTONGEN stock replacement engine will cost considerably less than replacing the vehicle. 
-                            </p>
-                            <p>
-                        We offer 1 year guarantee and service remote assist. We also have the option of selling with recommended engine oil and oil filter because the wrong lubricant can cause damage to the engine.
-                        </p>
+
+Used components are pulled directly from a vehicle – typically a salvaged vehicle – and does not even get its surface cleaned. There are no provisions for disassembly, internal cleaning, or inspection with a used component. Used engines and gearbox may have high mileage and a poor maintenance history – a failure waiting to happen.  Many used or junkyard components come from a vehicle that was involved in an accident and may have unseen damage. 
+Motongen goes deeper by checking the engine, opening the top and bottom, video inspection of the cylinder top. 
+ We sell certified used with better warranty and test.
+</p>
+
+<h5>REBUILT</h5>
+<p>
+
+At Motongen to rebuild is to recondition by cleaning, inspecting and replacing severely worn or broken parts. Serviceable parts are reused within the manufacturer’s acceptable wear limits. The quality of rebuilt components varies widely and many come with only a short term warranty. 
+</p>
+ <h5>
+
+REMANUFACTURED
+</h5>
+<p>
+At MotoNgen, to remanufacture is to make as closely to new as possible. All core material – head and block castings, crankshaft, camshaft and rods - are carefully inspected, checked against original equipment measured specifications for correct dimensional tolerances and precisely machined. Replacement parts are new or requalified to meet exacting standards and tolerances. Testing is performed to manufacturer measured specifications and original production standards. Warranty can be between 1 year to 3 years.
+</p>
                        
                     </div>
                 </div>

@@ -146,7 +146,7 @@ header .container .col-md-6:last-child p{
 
 .section-1 .col-md-6:first-child p{
     font-family: var(--Titillium);
-    padding-left: 8vmin;
+    /* padding-left: 8vmin; */
     font-weight: 700;
     color: #BF1E2E;
     font-size: 2em;
