@@ -12,7 +12,7 @@
                         7 Kehinde Famsheke Street <br> Off Ilasan New Road, <br> Off Lekki-Epe Expressway, Lagos.
                     </p>
                     <p>
-                        <i class="fas fa-phone text-danger"></i> 0817 093 9116
+                        <i class="fas fa-phone text-danger"></i> +234806 176 7447 &nbsp; +234706 170 1143
                     </p>
                     <p> <a href="mailto:info@motongen.com">
                         <i class="fas fa-envelope text-danger"></i>
