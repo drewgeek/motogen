@@ -51,8 +51,12 @@
                     <div class="col-md-6 text-left">
                         <h3>OUR MISSION</h3>
                         <p>
-                            To help vehicle owners, fleet owners save money and layoff time of there vehicles, to reduce mechanical waste and save them the financial burden of returning bad engines and buying engines that will not last.
+                          Continuous improvement in engine delivery, quality, productivity to increase longevity of vehicles, ensure sustainability and the reduction of mechanical waste in vehicles and all type of motion equipment through a recycling process.
 
+                        </p>
+                        <h3>OUR VISION</h3>
+                        <p>
+                          Reduce global mechanical waste, add value to salvage engines/parts.
                         </p>
                         <h3>OUR CULTURE</h3>
                         <p>
@@ -91,15 +95,16 @@
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                  <strong>USED ENGINES</strong>
-                                  <p>Used engines are taken directly from a vehicle typically a junkyard vehicle. There are no provisions for disassembly, internal cleaning, or inspection with a used component. Many used or junkyard components may have high mileage and a poor maintenance history – a failure waiting to happen. Many used or junkyard components come from a vehicle that was involved in an accident and may have unseen damage.</p>
+                                  <strong>Certified Motongen VS Tokunbo Engines</strong>
+                                  <p>Tokunbo engine traders do not even get their engine surface cleaned; there is no opportunity for disassembly, internal cleaning, or inspection with a used component. At Motongen, we inspect used engines and gearboxes that may have high mileage and poor maintenance history - a failure waiting to happen.
+                                    Motongen goes deeper by checking the engine, opening the top and bottom, video inspecting the cylinder top and pistons, and testing the valve body and solenoids. We sell certified-used with a minimum of 3-months warranty.</p>
                                   
-                                  <strong>REBUILT ENGINES</strong>
-                                  <p>To rebuild is to recondition by cleaning, inspecting and replacing severely worn or broken parts. Serviceable parts are reused within the manufacturer’s acceptable wear limits. The quality of rebuilt components vary widely and many come with only a short-term warranty.</p>
+                                  <strong>Certified Rebuilt</strong>
+                                  <p>At Motongen, we also sell rebuilt engines, gearboxes, and axles. To rebuild is to recondition by cleaning, inspecting, and replacing severely worn or broken parts. We reuse serviceable parts within the manufacturer's acceptable wear limits. The quality of rebuilt components varies widely, with many coming with only a mid-term warranty. We sell ours with a 1-year warranty.</p>
                                   
-                                  <strong>REMANUFACTURED ENGINES</strong>
+                                  <strong>Certified Remanufactured</strong>
                                   
-                                  <p>To remanufacture is to make as closely to new as possible. All core material – head and block castings, crankshaft, camshaft and rods - are carefully inspected, checked against original equipment measured specifications for correct dimensional tolerances and precisely machined. Replacement parts are new or requalified to meet exacting standards and tolerances.</p>
+                                  <p>At MotoNgen, we remanufacture by making it as close to new as possible. All core materials (head and block castings, crankshaft, camshaft, and rods) are carefully inspected, checked against original equipment, and measured to specification. They are machined precisely for correct dimensional tolerances. Replacement parts are new or requalified to meet exacting standards and tolerances. We test the manufacturer 's measured specifications and original production standards. Some of the engines come as imported. Warranty can be between 18w months to 3 years.</p>
                                   
                                 </div>
                               </div>

@@ -144,7 +144,7 @@ header .container .col-md-6:last-child p{
     font-family: var(--Inter);
     font-weight: 400;
     font-style: normal;
-    padding-right: 16em;
+    /* padding-right: 16em; */
     font-size: 14px;
     text-transform: none;
 }
@@ -162,14 +162,18 @@ header .container .col-md-6:last-child p{
     position: absolute;
     margin-top: -23vmin;
     padding-bottom: 4vmin;
-    height: 70%;
-    width: 40%;
+    /* height: 70%;
+     */
+     height: fit-content;
+    /* width: 40%;
+     */
+     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px;
 }
 
 .section-1 .col-md-6:last-child {
     /* padding-top: 5vmin; */
-    padding-right: 35vmin;
+    /* padding-right: 35vmin; */
     padding-left: 0;
     font-family: var(--Inter);
     left: 0;
@@ -355,10 +359,88 @@ footer p a:hover,:active {
 
 }
 
+@media screen and (max-width: 1198px) {
+
+    #title {
+        font-size: 3em;
+    }
+
+    header{
+        margin-bottom: -4em;
+        height: auto;
+    }
+
+
+    header .container .col-md-6:last-child {
+        margin-top: 1em;
+        padding-bottom: 2em;
+    }
+
+
+    .section-1 {
+        /* height: 50em; */
+        height:max-content;
+    }
+
+    .section-1 .col-md-6:first-child {
+        position: relative;
+    }
+
+    .section-1 .col-md-6:first-child  img{
+        position: relative;
+        margin-top: 2em;
+        padding-left: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    #secondrow{
+        margin-top: 8em;
+        padding-bottom: 3em;
+        /* padding-left: 2em; */
+        padding-top: 2em;
+        /* padding-right: 2em; */
+    }
+
+    #secondrow p{
+        text-align: justify;
+    }
+
+
+    .section-1 .col-md-6:last-child {
+        padding-top: 2em;
+        /* padding-left: 2em; */
+        /* padding-right: 1em; */
+    }
+
+    .section-2 {
+        /* height: 25em; */
+        height: auto;
+    }
+
+    .section-2 h1{
+        font-size: 3em;
+    }
+
+    .section-2 .col-md-6{
+        width: 100%;
+        
+    }
+
+    footer .row {
+        padding-left: 4vmin;
+    }
+
+    footer .col-md-3 {
+        padding-left: 1em;
+    }
+
+}
+
 @media screen and (max-width: 375px) {
 
     #title {
-        font-size: 6vmin;
+        font-size: 3em;
     }
 
     #secondrow{
@@ -377,6 +459,10 @@ footer p a:hover,:active {
 
     .section-1 .col-md-6:last-child p{
         padding-bottom: 2em;
+    }
+
+    .section-2 h1{
+        font-size: 2em;
     }
 }
 

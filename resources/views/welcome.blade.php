@@ -21,7 +21,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <h1 id="title">DO YOU WANT A<br class="d-none d-xl-block"> REMANUFACTURED ENGINE?</h1>
+                    <h1 id="title" class="d-xl-block">DO YOU WANT A REMANUFACTURED ENGINE?</h1>
                     <p class="text-white">
                         MotoNgen is an engine, gearbox and axles remanufacturing company. We procure engines for our customers across the nation and West Africa coast.
                     </p>
@@ -37,7 +37,8 @@
                         ABOUT  <br class="d-none d-xl-block">  MOTONGEN
                     </h1>
                     <p class="text-white">
-                        MotoNgen is an engine, gearbox and axles remanufacturing company,  today we are building the nation's largest collection of remanufactured of petrol, transmissions, differentials, rear axle assemblies,  performance engines, and electric motors. 
+                        Motongen is an engine, gearbox, and axle remanufacturing, warehousing, and trading company. We sell certified-used, rebuilt, and remanufactured petrol and lightweight diesel engines with warranty varied from 3-months to 1-year, and 2-year warranty. 
+                        
                     </p>
                     </span>
                 </div>
@@ -53,8 +54,8 @@
                         <img src="assets/splash.webp" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 text-left">
-                        <p>
-                            We procure engines, gearboxes, axles and differentials for our customers across the nation and West Africa coast.
+                        <p >
+                            We operate a well-equipped laboratory to make our product engines the best choice for your vehicles. We ship the engines nationwide to workshop partners and have installers and partner workshops in every major city in Nigeria.
                         </p>
                         <a href="{{route('about')}}" class="btn btn-danger px-5 py-2 bold-btn">ABOUT MOTONGEN</a>
                     </div>
@@ -66,7 +67,7 @@
         <section class="section-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 offset-md-3  col-sm-12 text-center">
+                    <div class="col-md-8 offset-md-2  col-sm-12 text-center">
                         <h1>
                             We offer one year guarantee & remote service assist
                         </h1>
