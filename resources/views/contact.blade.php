@@ -55,16 +55,12 @@
                         <form class="row g-3" action="{{url('contactform')}}" method="POST">
                             @csrf
                             <div class="col-md-6">
-                              <label for="firstname" class="form-label">First Name</label>
-                              <input type="text" name="firstname" class="form-control form-control-lg" id="firstname" required>
-                            </div>
-                            <div class="col-md-6">
-                              <label for="lastname" class="form-label">Last Name</label>
-                              <input type="text"  name="lastname" class="form-control form-control-lg" id="lastname" required>
+                              <label for="name" class="name">Name</label>
+                              <input type="text" name="name" class="form-control form-control-lg" id="name" required>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="phone" class="form-label">Phone Number</label>
+                                <label for="phone" class="phone">Phone Number</label>
                                 <input type="number" name="phone" class="form-control form-control-lg" id="phone" required>
                               </div>
                               <div class="col-md-6">
@@ -72,25 +68,21 @@
                                 <input type="email" name="email" class="form-control form-control-lg" id="email" required>
                               </div>
 
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                                 <label for="inputEmail4" class="form-label">Car Brand</label>
                                 <input type="text" name="brand" class="form-control form-control-lg" id="car-brand" required>
                               </div>
 
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                                 <label for="inputEmail4" class="form-label">Car Model</label>
                                 <input type="text" name="model" class="form-control form-control-lg" id="car-model" required>
                               </div>
 
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                                 <label for="inputPassword4" class="form-label">Year</label>
                                 <input type="number" name="year" class="form-control form-control-lg" id="car-year" maxlength="4" required>
                             </div>
 
-                            <div class="col-md-8 ">
-                                <label for="inputAddress2" class="form-label">VIN NUMBER</label>
-                                <input type="text" name="vin" class="form-control form-control-lg" id="vin-number">
-                              </div>
                               
                               <div class="col-12">
                               <div class="form-check form-check-inline">

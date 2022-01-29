@@ -92,6 +92,81 @@
         </div>
             </div>
         </div>
+
+        <script>
+            setTimeout(() => {
+
+                Swal.fire({
+                title: 'Need assistance with your Engine or Gearbox?',
+                showDenyButton: true,
+                showCancelButton: false,
+                confirmButtonText: 'Yes please',
+                confirmButtonColor: '#000',
+                denyButtonText: 'No, wait a minute',
+                padding: '3em',
+                color: '#716add',
+                // background: '#fff url(assets/gearbox.gif)',
+                // backdrop: `
+                //     rgba(0,0,123,0.4)
+                //     url("assets/gearbox2.gif")
+                //     left top
+                //     no-repeat
+                // `,
+                customClass: {
+                    actions: 'my-actions',
+                    // cancelButton: 'order-1 right-gap',
+                    confirmButton: 'order-2',
+                    denyButton: 'order-3',
+                }
+                }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "{{ route('contact')}}";
+                } else if (result.isDenied) {
+                    Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Okay, cool. We\'re always happy to help.',
+                    showConfirmButton: false,
+                    timer: 1500
+                    })
+
+                }
+                })
+
+
+            // Swal.fire({
+            //     title: 'Need assistance with your Gearbox?',
+            //     html: `<input type="text" id="name" class="swal2-input" placeholder="Name">
+            //     <input type="text" id="phone" class="swal2-input" placeholder="phone">
+            //     <textarea name="message" class="swal2-textarea" placeholder="Message here"></textarea>
+
+            //     `,
+            //     confirmButtonText: 'Submit',
+            //     confirmButtonColor: '#BF1E2E',
+            //     // width: '60%',
+            //     focusConfirm: false,
+            //     inputAttributes: {
+            //         autocapitalize: 'off',
+            //         size: '50'
+            //     },
+            //     preConfirm: () => {
+            //         const name = Swal.getPopup().querySelector('#name').value
+            //         const phone = Swal.getPopup().querySelector('#phone').value
+            //         if (!name || !phone) {
+            //         Swal.showValidationMessage(`Please fill the above form to submit`)
+            //         }
+            //         return { name: name, phone: phone }
+            //     }
+            //     }).then((result) => {
+            //     Swal.fire(`
+            //         Login: ${result.value.name}
+            //         Password: ${result.value.phone}
+            //     `.trim())
+            //     })
+
+           
+            }, 2000);
+        </script>
     </footer>
   
     @if(Str::contains(Request::server('HTTP_ACCEPT_LANGUAGE'), 'fr'))
@@ -107,5 +182,8 @@
                     window.location.href = "{{ route($frenchRouteName)}}";
                 } 
             });
+
+
+            
     </script>
 @endif

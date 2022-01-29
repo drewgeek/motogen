@@ -32,13 +32,11 @@ class Contact extends Mailable
     {
         return $this->from('info@motongen.com')
                 ->markdown('email.contact', [
-                   'firstname' => $this->properties['firstname'],
-                    'lastname' => $this->properties['lastname'],
+                   'name' => $this->properties['name'],
                     'email' => $this->properties['email'],
                     'phone' => $this->properties['phone'],
                     'brand' => $this->properties['brand'],
                     'model' => $this->properties['model'],
-                    'vin' => $this->properties['vin'],
                     'year' => $this->properties['year'],
                     'part' => $this->properties['part'],
                     'notes' => $this->properties['notes'],

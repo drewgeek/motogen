@@ -38,14 +38,12 @@ Route::view('installerfr', 'installerfr')->name('installerfr');
 Route::post('contactform', function(){
 
         request()->validate([
-            'firstname' => 'bail|required',
-            'lastname' => 'required',
+            'name' => 'bail|required',
             'phone' => 'required',
             'email' => 'required|email',
             'brand' => 'required',
             'model' => 'required',
             'year' => 'required',
-            'vin' => 'required',
             'notes' => 'required',
         ]);
 
