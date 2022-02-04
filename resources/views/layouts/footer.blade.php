@@ -4,7 +4,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="row">
-                <div class="col-md-3">
+                <div class="col">
                     <h4>
                         CONTACT US
                     </h4>
@@ -20,7 +20,7 @@
                         </a>
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col">
                     <h4>
                         ABOUT MOTONGEN
                     </h4>
@@ -37,7 +37,7 @@
                         Terms & Conditions
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col">
                     <h4>
                         Join our Community
                     </h4>
@@ -50,7 +50,7 @@
                         <a href="https://www.instagram.com/motongen3/"><i class="fab fa-instagram text-danger"></i></a>
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col">
                     <a class="btn btn-danger px-4 mt-3" href="{{route('contact')}}">Get a Quote</a>
                 </div>
             </div>
@@ -165,7 +165,7 @@
             //     })
 
            
-            }, 2000);
+            }, 60000);
         </script>
     </footer>
   

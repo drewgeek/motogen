@@ -71,9 +71,59 @@
 
         </section>
 
-        <section class="section-3">
+        <section class="section-3 mb-8">
+          <div class="container mt-4">
+            <h2 class="text-center">Our Processes</h2>
+            <div class="row align-items-center border-top border-bottom border-2 text-center">
+              <div class="col"></div>
+              <div class="col">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="50%" height="50%">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                  </svg>
+                </span> <br>
+                Call/text to place order
+              </div>
+              <div class="col ">
+                <span class="">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-danger" viewBox="0 0 20 20" fill="currentColor" width="50%" height="50%">
+                    <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+                  </svg>
+                </span> <br>
+                Engine/Gearbox ready for shipping
+
+              </div>
+              <div class="col ">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="50%" height="50%">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                  </svg>
+                </span> <br>
+                Shipped to Customer or Partner workshop
+              </div>
+              <div class="col ">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="50%" height="50%">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
+                  </svg>
+                </span> <br>
+                Installation &amp; Test Drive
+              </div>
+              <div class="col ">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-danger" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="50%" height="50%">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 15v-1a4 4 0 00-4-4H8m0 0l3 3m-3-3l3-3m9 14V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16l4-2 4 2 4-2 4 2z" />
+                  </svg>
+                </span> <br>
+                Return old core &amp; get paid
+              </div>
+              <div class="col"></div>
+
+            </div>
+          </div>
             <div class="container">
-                <div class="row pt-5">
+
+                <div class="row pt-3">
                     <div class="col-12 text-center">
 
                     <h2>FAQS</h2>
@@ -84,7 +134,7 @@
                 </div>
 
 
-                <div class="row">
+                <div class="row pb-5">
                     <div class="col-md-6">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">

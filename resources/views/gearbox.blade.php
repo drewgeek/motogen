@@ -40,7 +40,7 @@
         <section class="section-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 text-left">
+                    <div class="col-md-6 text-left mt-4">
                         <p class="text-danger text-uppercase">
                             What is the major cause of transmission failure is contamination?
                         </p>

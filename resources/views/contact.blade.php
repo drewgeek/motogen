@@ -55,12 +55,12 @@
                         <form class="row g-3" action="{{url('contactform')}}" method="POST">
                             @csrf
                             <div class="col-md-6">
-                              <label for="name" class="name">Name</label>
+                              <label for="name" class="form-label">Name</label>
                               <input type="text" name="name" class="form-control form-control-lg" id="name" required>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="phone" class="phone">Phone Number</label>
+                                <label for="phone" class="form-label">Phone Number</label>
                                 <input type="number" name="phone" class="form-control form-control-lg" id="phone" required>
                               </div>
                               <div class="col-md-6">
@@ -74,7 +74,7 @@
                               </div>
 
                               <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label">Car Model</label>
+                                <label for="model" class="form-label">Car Model</label>
                                 <input type="text" name="model" class="form-control form-control-lg" id="car-model" required>
                               </div>
 

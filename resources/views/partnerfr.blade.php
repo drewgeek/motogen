@@ -23,7 +23,7 @@
         <div class="container text-left">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <h1 class="text-white">FIND AN INSTALLER</h1>
+                    <h1 class="text-white">REGISTER AS A PARTNER WORKSHOP</h1>
                     <p>
                         Thank you for your interest in MotoNgen Engine and Gearbox Remanufactured Products.
                     </p>

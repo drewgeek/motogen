@@ -189,17 +189,19 @@ header .container .col-md-6:last-child p{
 }
 
 .section-2 {
-    padding: 10vmin 10vmin;
+    padding: 12vmin 1vmin;
     background: #BF1E2E;
     color: white;
+    height: auto;
     z-index: 10;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+    margin-bottom: 3em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 
 .section-2 h1{
     font-family: var(--Titillium);
-    font-weight: 700;
-    font-size: 2.8em;
+    font-weight: 600;
+    font-size: 2.2em;
     text-transform: uppercase;
 }
 
@@ -207,7 +209,7 @@ header .container .col-md-6:last-child p{
     font-family: var(--Inter);
     font-size: 14px;
     font-weight: 400;
-    padding: 2vmin 8vmin;
+    padding: 4vmin 2vmin;
 }
 
 footer {

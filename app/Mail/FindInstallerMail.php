@@ -31,19 +31,17 @@ class FindInstallerMail extends Mailable
     {
         return $this->from('info@motongen.com')
             ->markdown('email.installer', [
-                'firstname' => $this->user['firstname'],
-                'lastname' => $this->user['lastname'],
-                'email' => $this->user['email'],
-                'phone' => $this->user['phone'],
-                'state' => $this->user['state'],
-                'city' => $this->user['city'],
-                'brand' => $this->user['brand'],
-                'model' => $this->user['model'],
-                'vin' => $this->user['vin'],
-                'year' => $this->user['year'],
-                'part' => $this->user['part'],
+                'name' => $this->user['name'] ?? '',
+                'email' => $this->user['email'] ?? '',
+                'phone' => $this->user['phone'] ?? '',
+                'state' => $this->user['state'] ?? '',
+                'city' => $this->user['city'] ?? '',
+                'brand' => $this->user['brand'] ?? '',
+                'model' => $this->user['model'] ?? '',
+                'year' => $this->user['year'] ?? '',
+                'part' => $this->user['part'] ?? '',
                 'kits' => $this->user['kits'] ? 'Include Kits' : 'Dont include kits',
-                'notes' => $this->user['notes'],
+                'notes' => $this->user['notes'] ?? '',
             ]);
 
     }

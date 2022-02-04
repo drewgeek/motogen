@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Contact;
 use App\Mail\FindInstallerMail;
+use App\Mail\PartnerMail;
 use App\Mail\ThankYouMail;
 
 /*
@@ -34,6 +35,8 @@ Route::view('gearbox', 'gearbox')->name('gearbox');
 Route::view('gearboxfr', 'gearboxfr')->name('gearboxfr');
 Route::view('installer', 'installer')->name('installer');
 Route::view('installerfr', 'installerfr')->name('installerfr');
+Route::view('partner', 'partner')->name('partner');
+Route::view('partnerfr', 'partnerfr')->name('partnerfr');
 
 Route::post('contactform', function(){
 
@@ -54,7 +57,7 @@ Route::post('contactform', function(){
          return back()->withInput()->withErrors('Error sending mail. Please retry');
     }
 
-    Mail::to(request('email'))->send(new ThankYouMail(request('firstname')));
+    Mail::to(request('email'))->send(new ThankYouMail(request('name')));
 
     return back()->with('message', 'Your message is succcessfully received');
 
@@ -89,8 +92,7 @@ Route::post('academy', function(){
 Route::post('installer', function(){
 
     request()->validate([
-        'firstname' => 'bail|required',
-        'lastname' => 'required',
+        'name' => 'bail|required',
         'phone' => 'required',
         'email' => 'required|email',
         'state' => 'required',
@@ -98,7 +100,6 @@ Route::post('installer', function(){
         'brand' => 'required',
         'model' => 'required',
         'year' => 'required',
-        'vin' => 'required',
         'part' => 'required',
         'notes' => 'required',
     ]);
@@ -110,7 +111,34 @@ Route::post('installer', function(){
          return back()->withInput()->withErrors('Error sending mail. Please retry');
     }
 
-    Mail::to(request('email'))->send(new ThankYouMail(request('firstname')));
+    Mail::to(request('email'))->send(new ThankYouMail(request('name')));
+
+    return back()->with('message', 'Your message is succcessfully received');
+
+});
+
+
+Route::post('partner', function(){
+
+    request()->validate([
+        'name' => 'bail|required',
+        'phone' => 'required',
+        'email' => 'required|email',
+        'state' => 'required',
+        'city' => 'required',
+        'workshop' => 'required',
+        'address' => 'required',
+        'notes' => 'required',
+    ]);
+
+    Mail::to('info@motongen.com')
+    ->send(new PartnerMail(request()->toArray()));
+
+    if(Mail::failures()){
+         return back()->withInput()->withErrors('Error sending mail. Please retry');
+    }
+
+    Mail::to(request('email'))->send(new ThankYouMail(request('name')));
 
     return back()->with('message', 'Your message is succcessfully received');
 

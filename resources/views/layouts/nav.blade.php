@@ -28,6 +28,7 @@
                         <li><a class="dropdown-item" href="{{route('gearbox')}}">GEARBOX </a></li>
                         <li><a class="dropdown-item" href="{{route('axle')}}">AXLES </a></li>
                         <li><a class="dropdown-item" href="{{route('installer')}}">FIND AN INSTALLER </a></li>
+                        <li><a class="dropdown-item" href="{{route('partner')}}">PARTNER WITH US </a></li>
                     </ul>
                   </li>
                   
