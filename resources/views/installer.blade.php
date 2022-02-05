@@ -68,8 +68,8 @@
                         <form class="row g-3" action="{{url('installer')}}" method="POST">
                           @csrf
                             <div class="col-md-6">
-                              <label for="firstname" class="form-label">Name</label>
-                              <input type="text" class="form-control form-control-lg" id="firstname" required name="firstname">
+                              <label for="firstname" class="name">Name</label>
+                              <input type="text" class="form-control form-control-lg" id="name" required name="name">
                             </div>
                            
 
