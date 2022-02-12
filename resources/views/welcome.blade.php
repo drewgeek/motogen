@@ -22,11 +22,11 @@
         <div class="container" >
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                    <h1 id="title" class="d-xl-block">DO YOU NEED AN ENGINE/GEARBOX?</h1>
-                    <p class="text-white">
+                    {{-- <h1 id="title" class="d-xl-block">DO YOU NEED AN ENGINE/GEARBOX?</h1> --}}
+                    {{-- <p class="text-white">
                         MotoNgen is an engine, gearbox and axles remanufacturing company. We procure engines for our customers across the nation and West Africa coast.
-                    </p>
-                    <a href="{{route('contact')}}" class="btn btn-light py-2 px-5 ml-5 bold-btn">GET A QUOTE</a>
+                    </p> --}}
+                    {{-- <a href="{{route('contact')}}" class="btn btn-light py-2 px-5 ml-5 bold-btn">GET A QUOTE</a> --}}
                 </div>
             </div>
                 

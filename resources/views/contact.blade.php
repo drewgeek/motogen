@@ -41,9 +41,9 @@
             <div class="container pb-5">
                 <div class="row mb-5">
                     <div class="col-xl-6 offset-xl-3 col-lg-8 col-md-8 offset-md-2 col-sm-12 text-center">
-                        <h1 class="text-uppercase title">
+                        <h3 class="text-uppercase">
                             Enter the details of  your engine and car brand below
-                        </h1>
+                        </h3>
                     </div>
                 </div>
 
