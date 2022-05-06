@@ -1,10 +1,10 @@
 
     <footer>
-        <div class="container">
+        <div class="container cover">
             <div class="row">
               <div class="col-12">
                 <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 contact-width">
                     <h4>
                         CONTACT US
                     </h4>
@@ -45,9 +45,9 @@
                         Follow us and use the following <br> social media platforms to get in <br> contact with us
                     </p>
                     <p>
-                        <a href="#"><i class="fab fa-facebook-f text-danger"></i></a>
                         <a href="#"> <i class="fab fa-twitter text-danger"></i></a>
-                        <a href="https://www.instagram.com/motongen3/"><i class="fab fa-instagram text-danger"></i></a>
+                        <a href="https://wa.me/message/6F4AGMSN7GFEP1"> <i class="fab fa-whatsapp text-danger"></i></a>
+                        <a href="https://www.instagram.com/motongen_and_gearbox/"><i class="fab fa-instagram text-danger"></i></a>
                     </p>
                 </div>
                 <div class="col-md-3">

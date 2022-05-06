@@ -3,18 +3,20 @@
 
 *{
     box-sizing: border-box;
+    
+
 }
 
-/* header,
+header,
 section {
     overflow-x: hidden;
-} */
+}
 
-/* :root {
+:root {
     --Titillium: 'Titillium Web', sans-serif;
     --Inter: 'Graphik';
     --red: #BF1E2E;
-} */
+}
 
 
 header a, span{
@@ -32,18 +34,22 @@ header span {
 
 
 
-header {
+.header {
     /* background: #232528; */
     background: #3A3B3C;
+    /* background-color: red; */
     /* background: url("../assets/bg.webp"); */
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
     /* height: 1061px; */
     height: 760px;
+    height: 400px;
+    
     background-size: cover;
     position: relative;
     margin-bottom: -5vw;
+    margin-bottom: 20vh;
     overflow-y:hidden;
 }
 
@@ -149,7 +155,7 @@ header .container .col-md-6:last-child p{
     font-weight: 400;
     font-style: normal;
     padding-right: 16em;
-    font-size: 20px;
+    font-size: 14px;
     text-transform: none;
 }
 
@@ -177,7 +183,7 @@ header .container .col-md-6:last-child p{
     padding-left: 0;
     font-family: var(--Inter);
     left: 0;
-    font-size: 20px;
+    font-size: 14px;
     
     /* text-justify: inter-word; */
     overflow: auto;
@@ -203,13 +209,13 @@ header .container .col-md-6:last-child p{
 .section-2 h1{
     font-family: var(--Titillium);
     font-weight: 700;
-    font-size: 3.8em;
+    font-size: 2.8em;
     text-transform: uppercase;
 }
 
 .section-2 p{
     font-family: var(--Inter);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     padding: 2vmin 8vmin;
 }
@@ -225,7 +231,7 @@ footer h4{
     font-weight: 700;
     font-style: normal;
     line-height: 25px;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 footer p {
