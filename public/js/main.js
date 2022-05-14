@@ -20,7 +20,7 @@ let itemContents=[
 let content=""
 
 itemContents.map((val,ind)=>{
-    
+
     return(
         content+= `<ul>
             <li class="image-container"> <a href="https://motongen.com/contact"><img src=${val.image} alt=""/></a></li>
@@ -56,7 +56,7 @@ let fourthitemContents=[
 
     {image:"assets/Engine/RANGE-ROVER-VOGUE-2014-15-16-17-18-FROM-N7,600,000.png",
         name:"RANGE ROVER ",
-        price:"N7,600,000"}, 
+        price:"N7,600,000"},
 
     {image:"assets/Engine/AUDI-A4-A6,-CC-POLO-2.0-TSI-N790,000-3MONTHS-GUARANTEE-(MIN).png",
         name:"AUDI A4 A6",
@@ -139,11 +139,11 @@ let fourthitemContents=[
     {image:"assets/Engine/TOYOTA-SIENNA-HIGHLANDER-2002-7-ENGINE-3MZ-N498,000-6-MONTHS-GUARANTEE-(MIN).png",
         name:"TOYOTA SIENNA",
         price:"N498,000"},
-    
+
     {image:"assets/Gearbox/HONDA-ACCORD-GEARBOX-2003-07-N280,000-3MONTHS-GUARANTEE-(MIN).jpg",
         name:"Honda Accord 03-07",
         price:"N280,000"},
-    
+
     {image:"assets/Gearbox/TOYOTA-GEARBBOX-LANDCRUISER-2009-2015-N1,190,000.00-3MONTHS-GUARANTEE-(MIN).jpg",
         name:"TOYOTA LANDCRUISER",
         price:"N1,190,000.00"},
@@ -161,73 +161,93 @@ let fourthcontent=""
 
 fourthitemContents.map((val,ind)=>{
 
-    
     return(
-       
+
         fourthcontent+= `<ul>
             <li class="fourthimage-container"> <a href="https://motongen.com/contact"><img src=${val.image} alt=""/></a></li>
-            <li class="fourthitem-name">${val.name}</li>
+            <li class="fourthitem-name only-name">${val.name}</li>
             <li class="fourthitem-name">Starting Price</li>
             <li class="fourthitem-price">${val.price}</li>
             </ul>
-        `  
+        `
     )
-   
+
 
 })
 
 let fourthdisplaydiv=document.getElementById('fourth-inner-images')
 fourthdisplaydiv.innerHTML=fourthcontent
 
+function searchContent() {
+    let input, filter, ul, i, txtValue;
+    input = document.getElementById('search-input');
+    filter = input.value.toUpperCase();
+    console.log('------------fourthitemContents-----------------------------');
+    let inner_images = document.getElementById("fourth-inner-images");
+    ul = inner_images.getElementsByTagName('ul');
+
+    for (i = 0; i < ul.length; i++) {
+        let colNames = ul[i].getElementsByClassName('only-name')[0];
+        txtValue = colNames.textContent || colNames.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            ul[i].style.display = "";
+        } else {
+            ul[i].style.display = "none";
+        }
+    }
+
+    console.log('------------fourthitemContents-----------------------------');
+
+}
 
 
 let fifthitemContents=[
     {image:"assets/junkyardengine.webp",
-    name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/installer.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/splash.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/engine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/rebuiltengine.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/splash.webp",
-name:"AIR INTAKEe"
-},
-{image:"assets/splash.webp",
-name:"AIR INTAKEe"
-},
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/installer.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/splash.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/engine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/rebuiltengine.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/splash.webp",
+        name:"AIR INTAKEe"
+    },
+    {image:"assets/splash.webp",
+        name:"AIR INTAKEe"
+    },
 ]
 let fifthcontent=""
 
 fifthitemContents.map((val,ind)=>{
-    
+
     return(
-       
+
         fifthcontent+= `<ul>
 
         <li class="fifthimage-container"> <img src=${val.image} alt=""/></li>
@@ -236,9 +256,9 @@ fifthitemContents.map((val,ind)=>{
 
         </ul>
         `
-     
+
     )
-   
+
 
 })
 
@@ -255,52 +275,52 @@ let fifthdisplaydiv=document.getElementById('fifth-inner-images')
 //     let scrollname=document.getElementById("fifth-section-inner")
 //     function moveleft(){
 //         if(initial!==0){
-           
+
 //             initial-=amount
 //             fifthdisplaydiv.style.transform="translate(-" + initial + "px) "
 //         }
 //     }
-     
-   
+
+
 function movefunc(){
     let right=scrollname.scrollWidth
-   
+
     let wid=scrollname.clientWidth
-   
-   
-   
-    
+
+
+
+
     initial+=amount
-   
+
     if(wid==right){
-       
-     
+
+
         fifthdisplaydiv.style.transform="translate(" + 0 + "px) "
-        
-      
+
+
         initial=0
     }
     else{next()}
-  
-    
-  
-   
-   
-   
+
+
+
+
+
+
 }
 function next(){
     let right=scrollname.scrollWidth
-   
+
     let wid=scrollname.clientWidth
-   
-   
-   
-    
+
+
+
+
     initial+=amount
     if(wid<right){
-        
+
         fifthdisplaydiv.style.transform="translate(-" + initial + "px) "
-  }
+    }
 }
 let vehicle=document.getElementById("by-vehicle")
 let part=document.getElementById("by-part")
@@ -308,40 +328,40 @@ let partdiv=document.getElementById("input-div")
 let vehiclediv=document.getElementById("vehicle")
 vehicle.addEventListener("click",open)
 function open(){
-  
-partdiv.style.display="none"
-vehiclediv.style.display="flex"
-vehicle.style.backgroundColor="var(--red)"
-part.style.color="black"
-part.style.backgroundColor="whitesmoke"
-vehicle.style.color="white"
+
+    partdiv.style.display="none"
+    vehiclediv.style.display="flex"
+    vehicle.style.backgroundColor="var(--red)"
+    part.style.color="black"
+    part.style.backgroundColor="whitesmoke"
+    vehicle.style.color="white"
 
 
 }
 part.addEventListener("click",partopen)
 function partopen(){
-  
+
     partdiv.style.display="flex"
     vehiclediv.style.display="none"
     vehicle.style.backgroundColor="whitesmoke"
     part.style.color="white"
     part.style.backgroundColor="var(--red)"
     vehicle.style.color="black"
-    
-    
-    }
+
+
+}
 let mobileoption=document.getElementById("mobile-option")
 let mobileheader=document.getElementById("mobile-header")
- mobileoption.addEventListener("click",mobileopen)
- 
+mobileoption.addEventListener("click",mobileopen)
+
 function mobileopen(){
-    
+
     mobileheader.style.display="flex"
     document.getElementById('first-section-body-inner').style.marginTop="0vh"
     document.getElementById('mobile-cancel').style.display="flex"
     mobileoption.style.display="none"
-    
-    
+
+
 }
 let mobilecancel=document.getElementById("mobile-cancel")
 mobilecancel.addEventListener("click",mobileclose)
@@ -350,5 +370,5 @@ function mobileclose(){
     document.getElementById('first-section-body-inner').style.marginTop="10vh"
     document.getElementById('mobile-cancel').style.display="none"
     mobileoption.style.display="flex"
-   
+
 }
