@@ -1,7 +1,7 @@
 let itemContents=[
     {image:"assets/Engine/FORD-EDGE-2008-09-10-FROM-N650,000-Copy.png",
         name:"FORD EDGE"},
-    {image:"assets/Engine/FORD-EXPLORER-2013-14-15-FROM-N780,000-Copy.png",
+    {image:"assets/Engine/FORD-EXPLORER-2012-16-FROM-N790,000-3MONTHS-GUARANTEE-(MIN).png",
         name:"FORD EXPLORER"},
     {image:"assets/Engine/HONDA-ACCORD-2003-6-FROM-N360,000-Copy.png",
         name:"HONDA ACCORD"},
@@ -23,9 +23,9 @@ itemContents.map((val,ind)=>{
     
     return(
         content+= `<ul>
-        <li class="image-container"> <img src=${val.image} alt=""/></li>
-        <li class="item-name">${val.name}</li>
-        </ul>
+            <li class="image-container"> <a href="https://motongen.com/contact"><img src=${val.image} alt=""/></a></li>
+            <li class="item-name">${val.name}</li>
+            </ul>
         `
     )
 })
@@ -41,14 +41,6 @@ let fourthitemContents=[
     {image:"assets/Engine/TOYOTA-SIENNA-HIGHLANDER-2003-7-ENGIN-3MZ-FROM-N490,000.png",
         name:"TOYOTA SIENNA ",
         price:"N490,000"},
-
-    {image:"assets/New/TOYOTA-4RUNNER-ENGINE-1GR-FJ-RUISER-2010-TO-2018.jpg",
-        name:"TOYOTA4 RUNNER",
-        price:"N500,000"},
-
-    {image:"assets/Engine/TOYOTA-CAMRY-2006-07-08-09-10-1ZZ-FROM-N4.png",
-        name:"TOYOTA CAMRY",
-        price:"N400,000"},
 
     {image:"assets/Engine/LEXUS-IS250-IS350-2008-09-14-4GR-ENGINE-FROM-N530,000.jpg",
         name:"LEXUS-IS250-IS350",
@@ -100,17 +92,17 @@ let fourthitemContents=[
         name:"LAND ROVER VOGUE HSE",
         price:"N8,200,000"},
 
-    // {image:"assets/Engine/LEXUS-ES350,-RX-350,-TOYOTA-HIGHLANDER,-AVALON,-CAMRY V6,-SIENNA-2GR-ENGINE-N620,000-3MONTHS-GUARANTEE-(MIN).png",
-    //     name:"Lexus",
-    //     price:"N620,000"},
+    {image:"assets/Engine/LEXUS-ES350,RX350HIGHLANDER,AVALON,CAMRY-V6,SIENNA-2GR-FROM-N595,000.png",
+        name:"LEXUS ES350",
+        price:"N595,000"},
 
     {image:"assets/Engine/LEXUS-GX460-V8-1UR-2010-19-N2,800,000-3MONTHS-GUARANTEE-(MIN).png",
         name:"LEXUS GX460 V8",
         price:"N2,800,000"},
 
-    // {image:"assets/Engine/LEXUS-GX460-V8-1UR-2010-19-N2,800,000-3MONTHS-GUARANTEE-(MIN).jpg",
-    //     name:"Lexus GX460 V8",
-    //     price:"N2,800,000"},
+    {image:"assets/Engine/LEXUS-GX460-V8-1UR-2010-11-12-13-14-15-16-17-18-19-FROM-N2,400,000.png",
+        name:"Lexus GX460 V8",
+        price:"N2,800,000"},
 
     {image:"assets/Engine/MERCEDES-BENZ-E350-2007-12-FROM-N770,000-3MONTHS-GUARANTEE-(MIN).png",
         name:"MERCEDES BENZ E350",
@@ -152,13 +144,13 @@ let fourthitemContents=[
         name:"Honda Accord 03-07",
         price:"N280,000"},
     
-    {image:"assets/Gearbox/LEXUS-TOYOTA-HIGHLANDER,-LEXUS-ES350,-RX350-V6-GEARBOX-N680,000-3MONTHS-GUARANTEE-(MIN).jpg",
-        name:"Lexus Gearbox",
-        price:"N680,000"},
-
     {image:"assets/Gearbox/TOYOTA-GEARBBOX-LANDCRUISER-2009-2015-N1,190,000.00-3MONTHS-GUARANTEE-(MIN).jpg",
-        name:"Land Cruiser 09-15",
-        price:"N1,190,000"},
+        name:"TOYOTA LANDCRUISER",
+        price:"N1,190,000.00"},
+
+    {image:"assets/Gearbox/TOYOTA-HIGHLANDER,-LEXUS-ES350,-RX350-V6-GEARBOX-N680,000-3MONTHS-GUARANTEE-(MIN).jpg",
+        name:"TOYOTA-HIGHLANDER",
+        price:"N680,000"},
 
     {image:"assets/Gearbox/TOYOTA-SIENNA-2002-7-4WD-GEARBOX-N450,000-3MONTHS-GUARANTEE-(MIN).jpg",
         name:"Sienna 02-07",
@@ -168,17 +160,17 @@ let fourthitemContents=[
 let fourthcontent=""
 
 fourthitemContents.map((val,ind)=>{
+
     
     return(
        
         fourthcontent+= `<ul>
-        <li class="fourthimage-container"> <img src=${val.image} alt=""/></li>
-        <li class="fourthitem-name">${val.name}</li>
-        <li class="fourthitem-name">Starting Price</li>
-        <li class="fourthitem-price">${val.price}</li>
-        </ul>
-        `
-     
+            <li class="fourthimage-container"> <a href="https://motongen.com/contact"><img src=${val.image} alt=""/></a></li>
+            <li class="fourthitem-name">${val.name}</li>
+            <li class="fourthitem-name">Starting Price</li>
+            <li class="fourthitem-price">${val.price}</li>
+            </ul>
+        `  
     )
    
 
@@ -237,9 +229,11 @@ fifthitemContents.map((val,ind)=>{
     return(
        
         fifthcontent+= `<ul>
+
         <li class="fifthimage-container"> <img src=${val.image} alt=""/></li>
+
         <li class="text">${val.name}</li>
-       
+
         </ul>
         `
      

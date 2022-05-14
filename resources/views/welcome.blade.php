@@ -82,7 +82,15 @@ else {
                  Contact Us
              
          </a>
-    </li> 
+    </li>
+    
+    <li>
+      <a href="https://wa.me/message/6F4AGMSN7GFEP1"> <i class="fab fa-whatsapp text-danger"></i></a>                 
+    </li>
+
+    <li>
+      <a href="https://www.instagram.com/motongen_and_gearbox/"><i class="fab fa-instagram text-danger"></i></a>
+    </li>
     <li >
 
 <a href="{{route($englishRouteName)}}" title="switch to english"><img src="assets/england-flag.webp" alt="english" title="switch to english" width="20"> </a>| <a href="{{route($frenchRouteName)}}" title="passer au français"><img src="assets/france.webp" alt="french" width="20" title="passer au français"></a>
@@ -121,10 +129,8 @@ else {
          </li>
      
          <li >
-                 <a class="contact-us-button-style" href="{{route('contact')}}">
-                 
-                      Contact Us
-                  
+              <a class="contact-us-button-style" href="{{route('contact')}}">
+                Contact Us
               </a>
          </li> 
          <li >

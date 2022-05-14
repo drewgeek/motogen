@@ -45,7 +45,7 @@
                         Follow us and use the following <br> social media platforms to get in <br> contact with us
                     </p>
                     <p>
-                        <a href="#"> <i class="fab fa-twitter text-danger"></i></a>
+                        <!-- <a href="#"> <i class="fab fa-twitter text-danger"></i></a> -->
                         <a href="https://wa.me/message/6F4AGMSN7GFEP1"> <i class="fab fa-whatsapp text-danger"></i></a>
                         <a href="https://www.instagram.com/motongen_and_gearbox/"><i class="fab fa-instagram text-danger"></i></a>
                     </p>
@@ -64,8 +64,11 @@
                     <img src="{{asset('assets/logo.webp')}}" alt="logo">
                 </div>
                 <div class="col-md-8">
-                    <p style="font-size: 10px;">
+                    <!-- <p style="font-size: 10px;">
                     MotoNgen is an engine, gearbox and axles remanufacturing company, today we are building the nation's largest collection of remanufactured of petrol, transmissions, differentials, rear axle assemblies, performance engines, and electric motors. We procure engines for our customers across the nation and West Africa coast.
+                    </p> -->
+                    <p style="font-size: 12px;">
+                    DISCLAIMER: ALL CONTENT, PRICING, TERMS, AND AGREEMENTS ARE SUBJECT TO CHANGE WITHOUT PRIOR NOTICE BY MOTONGEN ENGINE AND TRANSMISSIONS. CALL 08061767447 or 07061701143 FOR MORE DETAILS.
                     </p>
                 </div>
                 <div class="col-md-2">

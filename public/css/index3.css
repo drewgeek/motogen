@@ -343,7 +343,7 @@ header {
    
 }
 
-.image-container{
+.image-container a{
     background-color: rgb(235, 235, 235);
     padding: 0.5rem;
    width: 100%;
@@ -480,7 +480,7 @@ header {
     justify-content: center;
     width: 100%;
 }
-.fourthimage-container{
+.fourthimage-container a{
     background-color: rgb(235, 235, 235);
     /* border: 1px solid black; */
     background-color: rgb(179, 176, 176);
@@ -972,6 +972,9 @@ height: auto;
     justify-content: space-between;
     /* background-color: #969899; */
     padding-top: 50px;
+    margin-left: 12%;
+    text-align: justify;
+    align-items: center;
 }
 
 .footer-section .cover{

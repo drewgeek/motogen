@@ -8,7 +8,8 @@
     <div class="row pb-5">
       <!-- <div class="prdt-image"> -->
       <div class="col">
-        <img src="{{asset('assets/images/001-honda 1.png')}}" alt="" srcset="">
+      <a href="www.google.com"><img src="{{asset('assets/images/001-honda 1.png')}}" alt="" srcset=""></a>
+        
       </div>
       <div class="col">
         <img src="{{asset('assets/images/002-volkswagen 1.png')}}" alt="" srcset="">
