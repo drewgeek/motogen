@@ -182,7 +182,7 @@ function searchContent() {
     let input, filter, ul, i, txtValue;
     input = document.getElementById('search-input');
     filter = input.value.toUpperCase();
-    console.log('------------fourthitemContents-----------------------------');
+
     let inner_images = document.getElementById("fourth-inner-images");
     ul = inner_images.getElementsByTagName('ul');
 
@@ -196,7 +196,6 @@ function searchContent() {
         }
     }
 
-    console.log('------------itemContents-----------------------------');
     let innerFirstContent = document.getElementById('list');
     let ulList = innerFirstContent.getElementsByTagName('ul');
     for (i = 0; i < ulList.length; i++) {
@@ -208,9 +207,6 @@ function searchContent() {
             ulList[i].style.display = "none";
         }
     }
-
-
-    console.log('------------itemContents-----------------------------');
 
 
 }
