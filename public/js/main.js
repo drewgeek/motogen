@@ -196,7 +196,22 @@ function searchContent() {
         }
     }
 
-    console.log('------------fourthitemContents-----------------------------');
+    console.log('------------itemContents-----------------------------');
+    let innerFirstContent = document.getElementById('list');
+    let ulList = innerFirstContent.getElementsByTagName('ul');
+    for (i = 0; i < ulList.length; i++) {
+        let colNames = ulList[i].getElementsByClassName('item-name')[0];
+        let title = colNames.textContent || colNames.innerText;
+        if (title.toUpperCase().indexOf(filter) > -1) {
+            ulList[i].style.display = "";
+        } else {
+            ulList[i].style.display = "none";
+        }
+    }
+
+
+    console.log('------------itemContents-----------------------------');
+
 
 }
 
