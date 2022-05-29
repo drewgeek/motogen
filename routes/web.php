@@ -18,7 +18,7 @@ use App\Mail\ThankYouMail;
 |
 */
 
-Route::view('/', 'welcome')->name('home');
+Route::view('/', 'coming_soon')->name('home');
 Route::view('/fr', 'frwelcome')->name('homefr');
 Route::view('about', 'about')->name('about');
 Route::view('aboutfr', 'aboutfr')->name('aboutfr');
